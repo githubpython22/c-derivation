@@ -20,7 +20,7 @@ class Complex
        {
            Complex temp;
            temp.real = real - c2.real;
-           
+           temp.imag = imag - c2.imag;
 
            return temp;
        }
